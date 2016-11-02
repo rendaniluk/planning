@@ -1,3 +1,48 @@
+task 1 -git setup
+*git
+*git config --global user.name "rendaniluk"
+*git config --global user.email "lukhwa11582924@gmail.com"
+using git
+
+task 2 -repository
+*mkdir hello-world
+*cd hello-world
+*git init
+*git status
+
+task 3 -commit to it
+*git status
+*git add readme.txt
+*git commit -m 'initial commit'
+step:make more changes
+*git add readme.txt
+*git diff
+
+task 4 -GitHubbin
+*git config --global user.username 'rendaniluk'
+
+task 5 -Remote control
+*git remote add origin https://github.com/rendaniluk/hello-world.git
+*git push origin master
+
+task 6 -Fork & clone
+*fork patchwork repository done by going to github.com/jlord/patchwork
+step:clone fork locally
+*cd ..
+*git clone https://github.com/rendaniluk/hello-world.git
+*cd patchwork
+step: connect to the original repository
+*git remote add upstream https://github.com/jlord/patchwork.git
+
+***other important info***
+
+*git status-it tells that your folder is not a git repository
+*git init-to create a new logical repository in the folder
+*git status-now that you create new logical repository,you can see some untracked files.
+*git add . -this one add all the local files into git.
+*git status-to see whats up.
+*git commit -m 'initial commit'-used to add files into local repository.
+
 …or create a new repository on the command line
 
 echo "# hello-world" >> README.md

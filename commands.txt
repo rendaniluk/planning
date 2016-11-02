@@ -1,0 +1,21 @@
+commands learned so far
+*pwd-print working directory
+*ls-list what is in the dir
+*ls -alt-gives all files, long & sort by last modified
+*touch-to create new file
+*mv-to move, can also replace name of files.
+*mkdir-creates a new directory
+*rm-deletes files
+*cd-change directory
+*cp-copy
+* -r=recursive-this modify rm to delete the directory with all child files
+*echo-this accept a string as standard input and echoes it as back to the terminal as standard output.
+* >-this redirect the input into text file
+*cat-output the text file content into the terminal
+*cat >-this command takes output content of files on the left and overites it on the right file.
+*cat >>- this command takes output content of files on the left and add them on the right file.
+*cat <- this takes stdin from file on the right and input it to the program on the left.
+*|-pipe command
+*sort- this takes stdin and orders it alphabetically.
+*uniq-filter out the adjacent duplicate lines.
+*grep-global regular expression print(is case sensitive).it can also be used to search in the directory.
